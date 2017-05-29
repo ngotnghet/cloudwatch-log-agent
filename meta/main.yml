@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: ANHLN
+  description: cloudwatch-log-agent.
+  company: FPT Software
+  license: cloudwatch-log-agent
+  min_ansible_version: 1.9
+  platforms:
+  - name: EL
+    versions:
+    - all
+  galaxy_tags:
+    - acme
+    - installer
+    - web
+dependencies:
+  - { role: ngotnghet.cloudwatch-log-agent }
